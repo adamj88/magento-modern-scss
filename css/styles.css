@@ -62,40 +62,6 @@
 .map-popup-only-text { border-top:1px solid #ddd; }
 /* ======================================================================================= */
 
-
-/* Footer ================================================================================ */
-.footer-container {}
-.footer { margin:15px 0 40px; }
-.footer a { color:#444; }
-
-.footer .f-left { width:520px; }
-.footer .f-right { width:429px; }
-
-.footer ul { display:inline; }
-.footer li { display:inline; background:url(../images/bkg_pipe1.gif) 100% 50% no-repeat; padding:0 5px 0 0; margin:0 3px 0 0; }
-.footer .links li.last { background:none !important; padding-right:0 !important; }
-.footer .bugs { margin:0; color:#666; }
-.footer .bugs a { font-weight:bold; color:#444; }
-.footer address { color:#666; }
-.footer address a { color:#444; }
-
-.footer .form-subscribe { margin:8px 0; }
-.footer .form-subscribe label,
-.footer .form-subscribe .input-box,
-.footer .form-subscribe button.button { float:left; }
-.footer .form-subscribe label { padding-top:2px; font-weight:bold; color:#555; }
-.footer .form-subscribe .input-box { width:186px; margin:0 5px; }
-.footer .form-subscribe input.input-text { width:180px; }
-.footer .form-subscribe button.button span { height:23px; background-image:url(../images/bkg_btn-small.png); line-height:20px; }
-
-.footer .footer-callout { display:block; margin:-10px 0 10px; position:relative; }
-.footer .store-switcher { color:#555; text-align:right; }
-.footer .store-switcher label { font-weight:bold; vertical-align:middle; }
-.footer .store-switcher select { padding:0; vertical-align:middle; }
-
-.footer-container .bottom-container { margin:0 0 8px; text-align:right; }
-/* ======================================================================================= */
-
 /* Sample Data============================================================================ */
 .home-callout { margin-bottom:12px; }
 .home-callout img { display:block }

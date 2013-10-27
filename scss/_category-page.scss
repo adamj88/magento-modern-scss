@@ -1,0 +1,39 @@
+/* Category Page ========================================================================= */
+.category-title { margin:0 0 7px; }
+.category-title h1 { padding:3px 0; color:#5b9400; font-size:1.6em; font-weight:bold; line-height:1.25; }
+.category-image { width:100%; overflow:hidden; margin:0 0 10px; text-align:center; }
+.category-image img {}
+.category-description { margin:0 0 10px; }
+.category-products {}
+
+/* View Type: Grid */
+.products-grid { position:relative; }
+.products-grid.last { border-bottom:0; }
+.products-grid li.item { float:left; width:171px; padding:0 0 90px; }
+.products-grid .product-image { display:block; width:170px; height:170px; border:1px solid #ddd; border-width:1px 1px 1px 0; margin:0 0 10px; }
+.products-grid.first .product-image { border-top:0; }
+.products-grid li.last .product-image { border-right:0; }
+.products-grid .product-name { font-size:12px; margin:0 0 6px; }
+.products-grid .product-name a { color:#444; text-decoration:underline; }
+.products-grid .product-name a:hover { text-decoration:none; }
+.products-grid .price-box { margin:5px 0; }
+.products-grid .availability { line-height:21px; }
+.products-grid .actions { position:absolute; bottom:20px; }
+.col2-left-layout .products-grid,
+.col2-right-layout .products-grid { width:684px; margin:0 auto; }
+.col1-layout .products-grid,
+.page-empty .products-grid { width:684px; margin:0 auto; }
+
+/* View Type: List */
+.products-list li.item { border-bottom:1px solid #d9ddd3; padding:12px 10px; }
+.products-list li.item.last { border-bottom:0; }
+.products-list .product-shop { margin-left:185px; }
+.products-list .product-image { float:left; width:170px; height:170px; margin:0 0 10px; }
+.products-list .product-name { font-size:12px; margin:0 0 6px; }
+.products-list .product-name a { color:#444; text-decoration:underline; }
+.products-list .product-name a:hover { text-decoration:none; }
+.products-list .price-box { float:left; margin:4px 13px 0 0; }
+.products-list .availability { float:left; margin:3px 0 0; }
+.products-list .desc { clear:both; padding:6px 0 0; margin:0 0 13px; line-height:1.35; }
+.products-list .add-to-links { clear:both; }
+/* ======================================================================================= */

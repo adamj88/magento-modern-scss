@@ -1,0 +1,161 @@
+/* My Account ============================================================================= */
+.my-account .title-buttons .link-rss { float:none; margin:0; }
+
+/********** < Dashboard */
+.dashboard .welcome-msg { margin:0 8em 1.5em 0; }
+.dashboard .welcome-msg p { margin:0; }
+.dashboard .col2-set { margin:0 0 15px; }
+
+/* General Box */
+.box-account { margin:0 0 15px; }
+.box-account .box-head { margin:0 0 5px; text-align:right; }
+.box-account .box-head h2 { float:left; margin:0; font-size:14px; font-weight:bold; color:#4f8100; }
+.box-account .box-head a { font-size:10px; text-transform:uppercase; }
+
+.dashboard .box .box-title { background:#f1f1f1; padding:2px 10px; margin:0 0 12px; text-align:right; }
+.dashboard .box .box-title h3,
+.dashboard .box .box-title h4 { float:left; margin:0; font-size:12px; font-weight:bold; line-height:1.35; }
+.dashboard .box .box-title a { font-size:10px; text-transform:uppercase; }
+.dashboard .box .box-content { padding:0 10px; }
+
+/* Block: Recent Orders */
+.dashboard .box-recent {}
+
+/* Block: Account Information */
+.dashboard .box-info {}
+.dashboard .box-info h4 { font-size:11px; font-weight:bold; }
+
+/* Block: Reviews */
+.dashboard .box-reviews .box-head { background:#f1f1f1; padding:2px 10px; margin:0 0 12px; }
+.dashboard .box-reviews .box-head h2 { font-size:12px; font-weight:bold; line-height:1.35; color:#444; }
+.dashboard .box-reviews .number { display:none; float:left; font-size:10px; font-weight:bold; line-height:1; color:#fff; margin:3px -20px 0 0; padding:2px 3px; background:#0a263c; }
+.dashboard .box-reviews .details { padding:0 10px; }
+.dashboard .box-reviews li.item { margin:0 0 7px; }
+.dashboard .box-reviews li.item.last { margin:0; }
+.dashboard .box-reviews .ratings { margin:7px 0 0; }
+
+/* Block: Tags */
+.dashboard .box-tags .box-head { background:#f1f1f1; padding:2px 10px; margin:0 0 12px; }
+.dashboard .box-tags .box-head h2 { font-size:12px; font-weight:bold; line-height:1.35; color:#444; }
+.dashboard .box-tags .number { display:none; float:left; font-size:10px; font-weight:bold; line-height:1; color:#fff; margin:3px -20px 0 0; padding:2px 3px; background:#0a263c; }
+.dashboard .box-tags .details { padding:0 10px; }
+.dashboard .box-tags li.item { margin:0 0 7px; }
+.dashboard .box-tags li.item.last { margin:0; }
+.dashboard .box-tags .tags strong,
+.dashboard .box-tags .tags ul,
+.dashboard .box-tags .tags ul li { display:inline; }
+/********** Dashboard > */
+
+/* Address Book */
+.addresses-list h2 { background:#f1f1f1; padding:2px 10px; margin:0 0 12px; font-size:13px; font-weight:bold; line-height:1.25; }
+.addresses-list h3 { font-weight:bold; font-size:12px; }
+.addresses-list address { margin:0 0 3px; }
+.addresses-list p { margin:0; }
+.addresses-list a { font-weight:bold; }
+.addresses-list .link-remove {}
+.addresses-list .separator { margin:0 3px; }
+.addresses-list li.item { padding:0 10px; margin:0 0 12px; }
+.addresses-list li.empty {}
+.addresses-list li.empty p { font-weight:bold; }
+.addresses-list .addresses-additional li.item {}
+
+/* Order View */
+.order-info dt { display:none; }
+.order-info ul { margin-bottom:15px; border-bottom:1px solid #666; background:#f2f2f2 url(../images/bkg_tabs.gif) 0 100% repeat-x; }
+.order-info li{ float:left; border-right:1px solid #a4a4a4; border-left:1px solid #fff; font-size:1.1em; line-height:1em; }
+.order-info li.first { border-left:0; }
+.order-info li.last { border-right:0; }
+.order-info li a { display:block; padding:6px 15px; color:#444; }
+.order-info li a:hover { background-color:#ddd; text-decoration:none; color:#444; }
+.order-info li.current { background-color:#666; font-weight:bold; padding:6px 15px; color:#fff; }
+
+.order-date { margin:10px 0; }
+
+.order-info-box { margin:0 0 15px; }
+.order-info-box h2 { font-size:13px; font-weight:bold; border-bottom:1px solid #ddd; margin:0 0 8px; }
+.order-info-box .box-payment p { margin:0 0 3px; }
+.order-info-box .box-payment th { font-weight:bold; padding-right:7px; }
+
+.order-items { width:100%; overflow-x:auto; }
+.order-items h2,
+.order-items h3 { clear:none; font-weight:bold; font-size:13px; padding:0; margin:0 0 .45em; }
+.order-items h3 { font-size:12px; }
+.order-items .product-name { font-weight:bold !important; }
+.order-items .link-print { font-size:10px; text-transform:uppercase; }
+.order-items .order-links { text-align:right; }
+.order-items .order-links .link-print { font-weight:bold; font-size:11px; text-transform:none; }
+
+.order-additional { margin:15px 0; }
+/* Order Gift Message */
+.gift-message dt strong { color:#555; }
+.gift-message dd { font-size:13px; margin:5px 0 0; }
+/* Order Comments */
+.order-about dt { font-weight:bold; }
+.order-about dd { font-size:13px; margin:0 0 7px; }
+
+.tracking-table { margin:0 0 15px; }
+.tracking-table th { font-weight:bold; white-space:nowrap; }
+
+.tracking-table-popup { width:100%; }
+.tracking-table-popup th { font-weight:bold; white-space:nowrap; }
+.tracking-table-popup th,
+.tracking-table-popup td { padding:1px 8px; }
+
+/* Order Print Pages */
+.page-print .print-head { margin:0 0 15px; }
+.page-print .print-head .logo { float:left; }
+.page-print .print-head address { float:left; margin-left:15px; }
+.page-print h1 { font-size:15px; font-weight:bold; }
+.page-print h2,
+.page-print h3 { font-size:12px; font-weight:bold; }
+.page-print h2.h2 { font-size:15px; font-weight:bold; text-align:right; }
+.page-print .order-date { border-bottom:1px solid #ccc; padding:0 0 10px; margin:0 0 10px; }
+.page-print .col2-set { margin:0 0 10px; }
+/* Price Rewrites */
+.page-print .gift-message-link { display:none; }
+.page-print .price-excl-tax,
+.page-print .price-incl-tax { display:block; white-space:nowrap; }
+.page-print .cart-price,
+.page-print .price-excl-tax .label,
+.page-print .price-incl-tax .label,
+.page-print .price-excl-tax .price,
+.page-print .price-incl-tax .price { display:inline; }
+
+/* My Wishlist */
+.my-wishlist .data-table td { padding:10px; }
+.my-wishlist .product-image { display:block; width:113px; height:113px; margin:0 0 5px; }
+.my-wishlist textarea { display:block; width:97%; height:109px; }
+.my-wishlist .buttons-set { border:0; padding:0; margin:0 0 -3em; }
+.my-wishlist .buttons-set button.button { float:none; }
+.my-wishlist .buttons-set .btn-add span,
+.my-wishlist .buttons-set .btn-share span {}
+#wishlist-table .add-to-links { white-space:nowrap; }
+
+/* My Tags */
+.my-tag-edit { float:left; margin:0 0 10px; }
+.my-tag-edit .btn-remove { float:right; margin:4px 0 0 5px; }
+#my-tags-table { clear:both; }
+#my-tags-table td { padding:10px; }
+#my-tags-table .add-to-links { white-space:nowrap; }
+
+/* My Reviews */
+#my-reviews-table td { padding:10px; }
+#my-reviews-table .rating-box { margin:3px 0 0; }
+
+.product-review .product-img-box { float:left; width:140px;  }
+.product-review .product-img-box .product-image { display:block; width:125px; height:125px; }
+.product-review .product-img-box .label { font-size:11px; margin:0 0 3px; }
+.product-review .product-img-box .ratings .rating-box { float:none; display:block; margin:0 0 3px; }
+.product-review .product-details { margin-left:150px; }
+.product-review .product-name { font-size:16px; font-weight:bold; margin:0 0 10px; }
+.product-review h3 { font-size:12px; margin:0 0 3px; color:#2f2f2f; }
+.product-review .ratings-table { margin:0 0 10px; }
+.product-review dt { font-weight:bold; }
+.product-review dd { font-size:13px; margin:5px 0 0; }
+
+/* Billing Agreements */
+.billing-agreements .info-box{ margin:15px 0; }
+.billing-agreements .info-box p { margin:0 0 5px; }
+.billing-agreements .form-list li select { float:left; margin:3px 10px 0 0; }
+.billing-agreements .table-caption { font-weight:bold; font-size:13px; }
+/* ======================================================================================= */

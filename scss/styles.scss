@@ -23,17 +23,22 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 
- @import "reset";
- @import "layout";
- @import "global";
- @import "header";
- @import "sidebar";
- @import "category-page";
- @import "product-view";
- @import "content-styles";
- @import "shopping-cart";
- @import "checkout";
- @import "account";
- @import "misc";
- @import "footer";
- @import "clears";
+@import "compass";
+
+@import "modules/variables";
+@import "modules/mixins";
+
+@import "partials/reset";
+@import "partials/layout";
+@import "partials/global";
+@import "partials/header";
+@import "partials/sidebar";
+@import "partials/category-page";
+@import "partials/product-view";
+@import "partials/content-styles";
+@import "partials/shopping-cart";
+@import "partials/checkout";
+@import "partials/account";
+@import "partials/misc";
+@import "partials/footer";
+@import "partials/clears";

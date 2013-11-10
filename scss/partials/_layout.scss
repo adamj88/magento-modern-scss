@@ -1,28 +1,55 @@
 /* Layout ================================================================================ */
 .wrapper {}
-.page { width:960px; margin:15px auto 0; text-align:left; }
+.page { 
+	margin: $page-margin; 
+	text-align: $page-text-align; 
+	width: $page-width; 
+}
 .page-print { background:#fff; padding:25px 30px; text-align:left; }
 .page-empty { background:#fff; padding:20px; text-align:left; }
 .page-popup { background:#fff; padding:25px 30px; text-align:left; }
 .main-container {}
-.main { background:#fff; border:1px solid #bbb; border-top:0; border-bottom-color:#666; padding:16px 16px 50px; min-height:350px; }
+.main { 
+	background: $main-bg; 
+	border: {
+		color: $main-border-color;
+		style: $main-border-style;
+		width: $main-border-width;
+	}
+	padding: $main-padding; 
+	min-height:350px; 
+}
 
 /* Base Columns */
-.col-left { float:left; width:220px; padding:0 0 1px; }
-.col-main { float:left; width:686px; padding:0 0 1px; }
-.col-right { float:right; width:220px; padding:0 0 1px; }
+.col-left { 
+	float:left; 
+	width: $col-left-width; 
+	padding:0 0 1px; 
+}
+.col-main { 
+	float:left; 
+	width: $col-main-width; 
+	padding:0 0 1px; 
+}
+.col-right { 
+	float:right; 
+	width: $col-right-width; 
+	padding:0 0 1px; 
+}
 
 /* 1 Column Layout */
-.col1-layout .main { padding:16px 30px 40px; }
-.col1-layout .col-main { float:none; width:auto; }
+.col1-layout { 
+	.main { padding: $col1-main-padding; }
+	.col-main { float:none; width:auto; }
+}
 
 /* 2 Columns Layout */
 .col2-left-layout .col-main { float:right; }
 .col2-right-layout .col-main {}
 
 /* 3 Columns Layout */
-.col3-layout .col-main { width:452px; }
-.col3-layout .col-wrapper { float:left; width:689px; }
+.col3-layout .col-main { width: $col3-main-width; margin-left: $col3-main-margin-left; }
+.col3-layout .col-wrapper { float:left; width: $col-left-width+$col3-main-width+$col3-main-margin-left; }
 .col3-layout .col-wrapper .col-main { float:right; }
 
 /* Content Columns */
